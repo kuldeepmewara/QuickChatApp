@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+*{
+  box-sizing: border-box;
+}
+body{
+  background: #F3F6FB !important;
+  overscroll-behavior: contain;
+  inset: 0; 
+}
+.App {
+  display: flex;
+  box-sizing: border-box;
+  margin: 0px auto ;
+  padding-bottom: 10px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 20px;
+  overscroll-behavior: contain;
+  
+}
+
+@media screen and (max-width: 1000px) {
+  #mainGrid {
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    grid-auto-flow: dense;
+  }
+}
+
+ ::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} 
