@@ -9,5 +9,7 @@ In the project directory, you can run:
 clone the git repo 
 
 run the command .\
- `npm install`.\
+
+to install node packages run  `npm install`  or `npm --force install`
+ 
  `npm start`
